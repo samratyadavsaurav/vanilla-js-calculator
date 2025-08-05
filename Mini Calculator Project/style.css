@@ -1,0 +1,43 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+body{
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.container{
+  width:25%;
+  border:2px solid black;
+  padding:20px;
+  
+}
+
+input{
+  width:100%;
+  padding:20px;
+  text-align:right;
+}
+
+.btnGroup{
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  justify-content:space-around;
+ 
+
+}
+
+.btn{
+  height:60px;
+  width:60px;
+  margin:10px;
+  font-weight:bold;
+  font-size:20px;
+ 
+}
